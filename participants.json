@@ -21,16 +21,7 @@
 "IsAbout": {
 "TermURL": "nb:Age",
 "Label": ""
-},
-"Transformation": {
-"TermURL": "nb:FromInt",
-"Label": "integer data"
-},
-"MissingValues": [
-"",
-"n/a",
-" "
-]
+}
 }
 },
 "jsex": {
@@ -84,14 +75,15 @@
 "Label": ""
 },
 "Levels": {
+"0": {
+"TermURL": "nb:MissingValue",
+"Label": ""
+},
 "1": {
 "TermURL": "snomed:126943008",
 "Label": ""
 }
-},
-"MissingValues": [
-"0"
-]
+}
 }
 },
 "GADSx_p": {
@@ -109,14 +101,15 @@
 "Label": ""
 },
 "Levels": {
+"0": {
+"TermURL": "nb:MissingValue",
+"Label": ""
+},
 "1": {
 "TermURL": "snomed:21897009",
 "Label": ""
 }
-},
-"MissingValues": [
-"0"
-]
+}
 }
 },
 "SOCSx_p": {
@@ -134,14 +127,15 @@
 "Label": ""
 },
 "Levels": {
+"0": {
+"TermURL": "nb:MissingValue",
+"Label": ""
+},
 "1": {
 "TermURL": "snomed:25501002",
 "Label": ""
 }
-},
-"MissingValues": [
-"0"
-]
+}
 }
 },
 "Imp_f": {
@@ -195,8 +189,7 @@
 "IsAbout": {
 "TermURL": "nb:ParticipantID",
 "Label": ""
-},
-"Identifies": "participant"
+}
 },
 "Description": "There should have been a description here, but there wasn't. :("
 }
