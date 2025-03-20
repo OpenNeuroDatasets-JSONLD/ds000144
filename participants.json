@@ -13,7 +13,8 @@
 "Levels": {
 "0": "Non-African American",
 "1": "African American"
-}
+},
+"Description": "There should have been a description here, but there wasn't. :("
 },
 "ScanAge": {
 "Description": "Age at Scan",
@@ -21,7 +22,16 @@
 "IsAbout": {
 "TermURL": "nb:Age",
 "Label": ""
-}
+},
+"Transformation": {
+"TermURL": "nb:FromInt",
+"Label": "integer data"
+},
+"MissingValues": [
+"",
+"n/a",
+" "
+]
 }
 },
 "jsex": {
@@ -52,7 +62,8 @@
 "Levels": {
 "1": "Right Handed",
 "2": "Left Handed or Ambidextrus"
-}
+},
+"Description": "There should have been a description here, but there wasn't. :("
 },
 "IQ": {
 "Description": "IQ"
@@ -75,15 +86,14 @@
 "Label": ""
 },
 "Levels": {
-"0": {
-"TermURL": "nb:MissingValue",
-"Label": ""
-},
 "1": {
 "TermURL": "snomed:126943008",
 "Label": ""
 }
-}
+},
+"MissingValues": [
+"0"
+]
 }
 },
 "GADSx_p": {
@@ -101,15 +111,14 @@
 "Label": ""
 },
 "Levels": {
-"0": {
-"TermURL": "nb:MissingValue",
-"Label": ""
-},
 "1": {
 "TermURL": "snomed:21897009",
 "Label": ""
 }
-}
+},
+"MissingValues": [
+"0"
+]
 }
 },
 "SOCSx_p": {
@@ -127,15 +136,14 @@
 "Label": ""
 },
 "Levels": {
-"0": {
-"TermURL": "nb:MissingValue",
-"Label": ""
-},
 "1": {
 "TermURL": "snomed:25501002",
 "Label": ""
 }
-}
+},
+"MissingValues": [
+"0"
+]
 }
 },
 "Imp_f": {
@@ -189,7 +197,8 @@
 "IsAbout": {
 "TermURL": "nb:ParticipantID",
 "Label": ""
-}
+},
+"Identifies": "participant"
 },
 "Description": "There should have been a description here, but there wasn't. :("
 }
